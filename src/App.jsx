@@ -1,9 +1,10 @@
+import HomePage from "./pages/homePage"
 
 function App() {
 
   return (
     <>
-     clean code and structure
+     <HomePage />
     </>
   )
 }
