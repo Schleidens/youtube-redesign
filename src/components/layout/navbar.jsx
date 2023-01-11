@@ -20,7 +20,7 @@ export default function navbar() {
             
             <div className="ml-4">
             <a href="https://github.com/Schleidens" target="_blank">
-              <img src="https://avatars.githubusercontent.com/u/53914451?v=4" className='h-auto w-12 rounded-lg' alt="" />
+              <img src="https://avatars.githubusercontent.com/u/53914451?v=4" className='h-auto w-12 min-w-[25px] rounded-lg' alt="" />
             </a>
             </div>
         </div>
