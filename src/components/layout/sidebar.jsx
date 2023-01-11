@@ -12,7 +12,7 @@ import { RiErrorWarningLine } from 'react-icons/ri'
 
 export default function sidebar() {
   return (
-    <div className='sticky left-0 h-screen px-4 py-4 text-xl border-r border-gray-700 w-14'>
+    <div className='dark fixed left-0 h-screen px-4 py-4 text-xl border-r border-gray-700 w-14'>
         <RxHamburgerMenu className='hover:text-red-600 easy-in duration-300'/>
 
         <div className="flex flex-col my-8">

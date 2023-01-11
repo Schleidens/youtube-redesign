@@ -4,7 +4,7 @@ import Content from './content'
 
 export default function main() {
   return (
-    <div className='w-full'>
+    <div className='ml-14 w-full'>
         <Navbar />
         <Content />
     </div>
