@@ -11,7 +11,7 @@ export default function discover() {
     <div className='flex flex-wrap justify-start md:justify-center py-2'>
         {
             videos.map((video, index)=>(
-                <div className='pr-2.5 py-2'>
+                <div key={index} className='pr-2.5 py-2'>
                     <img 
                     src={`https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`}
                      alt={video.title}
