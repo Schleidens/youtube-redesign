@@ -3,7 +3,7 @@ import { AiOutlineFire } from 'react-icons/ai'
 
 export default function trendingVideoCard({videoId, title, watch, time, channelName}) {
   return (
-    <div className='pr-2.5 py-2'>
+    <div className='mr-2.5 pb-4 hover:scale-125 ease-in duration-300  hover:bg-neutral-800 hover:rounded-md'>
     <img 
     src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
      alt={title}
