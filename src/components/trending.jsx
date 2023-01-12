@@ -4,7 +4,8 @@ import videos from '../data/trending.json'
 
 export default function trending() {
   return (
-    <div className='flex flex-wrap justify-start md:justify-start py-2'>
+    <div className='flex flex-wrap justify-center py-2'>
+        <div className="flex justify-start flex-wrap md:flex-nowrap">
            {
             videos.map((video, index) => (
                 <TrendingVideoCard 
@@ -15,7 +16,8 @@ export default function trending() {
                 channelName={video.name}
             />
             ))
-           } 
+           }
+        </div>
     </div>
   )
 }
