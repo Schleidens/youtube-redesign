@@ -1,8 +1,10 @@
 import React from 'react'
 import { RiWirelessChargingFill } from 'react-icons/ri'
 import { AiOutlineFire } from 'react-icons/ai'
+import { FiCompass } from 'react-icons/fi'
 import Discover from '../discover'
 import Trending from '../trending'
+import Latest from '../latest'
 
 export default function content() {
   return (
@@ -24,6 +26,15 @@ export default function content() {
         </div>
 
         <Trending />
+
+        <div className="flex">
+            <FiCompass className='text-red-600 text-2xl mr-2' /> 
+            <span>
+                Latest
+            </span> 
+        </div>
+
+        <Latest />
     </div>
   )
 }
