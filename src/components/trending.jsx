@@ -8,7 +8,8 @@ export default function trending() {
         <div className="flex justify-start flex-wrap md:flex-nowrap">
            {
             videos.map((video, index) => (
-              <VideoCard 
+              <VideoCard
+                key={index}
                 videoId={video.id}
                 title={video.title}
                 watch={video.watch}
