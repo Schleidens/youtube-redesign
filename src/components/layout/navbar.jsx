@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiFillYoutube } from 'react-icons/ai'
 import { AiOutlinePlusCircle } from 'react-icons/ai'
+import { IoIosMic } from 'react-icons/io'
 import { CgMenuGridO } from 'react-icons/cg'
 import { IoMdNotificationsOutline } from 'react-icons/io'
 
@@ -9,7 +10,10 @@ export default function navbar() {
     <div className='dark flex justify-between px-2 py-4 top-0 sticky w-full border-b border-gray-700'>
         <AiFillYoutube className='text-red-600 text-2xl' />
 
-        <input type="text" className='bg-transparent outline-none w-full text-center' placeholder='Type to search' />
+        <div className="flex w-full pl-4 text-base">
+          <IoIosMic className='text-gray-600 text-2xl' />
+          <input type="text" className='bg-transparent outline-none w-full text-left pl-1' placeholder='Type to search' />
+        </div>
 
         <div className="flex text-xl">
             <div className="flex">
