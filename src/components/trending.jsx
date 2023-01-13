@@ -1,5 +1,5 @@
 import React from 'react'
-import TrendingVideoCard from './trendingVideoCard'
+import VideoCard from './videoCard'
 import videos from '../data/trending.json'
 
 export default function trending() {
@@ -8,7 +8,7 @@ export default function trending() {
         <div className="flex justify-start flex-wrap md:flex-nowrap">
            {
             videos.map((video, index) => (
-                <TrendingVideoCard 
+              <VideoCard 
                 videoId={video.id}
                 title={video.title}
                 watch={video.watch}
