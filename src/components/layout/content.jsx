@@ -9,7 +9,7 @@ import Latest from '../latest'
 export default function content() {
   return (
     <div className='py-2 px-2'>
-        <div className="flex">
+        <div className="flex mb-3">
             <RiWirelessChargingFill className='text-red-600 text-2xl mr-2' /> 
             <span>
                 Discover
@@ -18,7 +18,7 @@ export default function content() {
 
         <Discover />
 
-        <div className="flex">
+        <div className="flex mb-3">
             <AiOutlineFire className='text-red-600 text-2xl mr-2' /> 
             <span>
                 Trending
@@ -27,7 +27,7 @@ export default function content() {
 
         <Trending />
 
-        <div className="flex">
+        <div className="flex mb-3">
             <FiCompass className='text-red-600 text-2xl mr-2' /> 
             <span>
                 Latest
