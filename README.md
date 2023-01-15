@@ -1,4 +1,4 @@
-# Instagram desktop version redesign (responsive)
+# Youtube remake (responsive)
 
 
 This project was bootstrapped with **Vite React**
